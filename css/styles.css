@@ -10,3 +10,13 @@
   float: left;
   margin-left: 25px;
 }
+
+#letter {
+  display: none;
+}
+
+.fancy {
+  font-style: italic;
+  font-weight: bold;
+  color: purple;
+}
