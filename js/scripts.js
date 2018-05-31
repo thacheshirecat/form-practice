@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$("#formOne").submit(function(event) {
+$("#formThree").submit(function(event) {
   var userNameInput = $("input#userName").val();
   $(".userName").addClass("fancy");
   $(".userName").text(userNameInput);
@@ -11,7 +11,7 @@ $("#formOne").submit(function(event) {
 })
 
 
-$("#formOne").submit(function(event) {
+$("#formTwo").submit(function(event) {
   var userinputValue = $("input#user-input").val();
   var louder = userinputValue.toUpperCase();
   $(".user-input").text(louder);
