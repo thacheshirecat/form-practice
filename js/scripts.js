@@ -1,4 +1,30 @@
 $(document).ready(function() {
+
+$("#formOne").submit(function(event) {
+  var userinputValue = $("input#user-input").val();
+  var louder = userinputValue.toUpperCase();
+  $(".user-input").text(louder);
+
+  event.preventDefault();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+// mad lib scripts (disabled)
+//
+
   $("#formOne").submit(function(event) {
     var person1Input = $("input#person1").val();
     var person2Input = $("input#person2").val();
